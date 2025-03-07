@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies-Movies-Movies</title>
+    <!-- Linking to the external CSS file -->
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Link to jQuery library -->
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Interesting facts about movies</h1>
+      <hr />
+    </header>
+    <!-- Updated Image Wrapper with Save for Later Buttons -->
+    <div class="image-container">
+      <!-- First image with a save button -->
+      <div class="image-wrapper">
+        <img
+          src="picture4.jfif"
+          alt="Movies-Movies-Movies"
+          class="image-left" />
+        <button class="like-btn" data-item="movie_image_1">Like</button>
+        <button class="save-for-later" data-item="movie_image_1">
+          Save for Later
+        </button>
+        <!-- Save button added here -->
+      </div>
+
+      <!-- Second image with a save button -->
+      <div class="image-wrapper">
+        <img
+          src="picture5.jfif"
+          alt="Movies-Movies-Movies"
+          class="image-right" />
+        <button class="like-btn" data-item="movie_image_2">Like</button>
+        <button class="save-for-later" data-item="movie_image_2">
+          Save for Later
+        </button>
+        <!-- Save button added here -->
+      </div>
+    </div>
+
+    <section class="content">
+      <p>
+        The Earliest Film: The first recorded film ever created was Roundhay
+        Garden Scene (1888), a brief 2.11-second clip filmed by inventor Louis
+        Le Prince in France. Longest Film in History: The record for the longest
+        movie goes to Logistics (2012), which runs for a staggering 857 hours,
+        or roughly 35 days and 17 hours. Lightsaber Sound Secrets: The iconic
+        noise of a lightsaber from Star Wars is a mix of a film projector’s hum
+        and the sound produced by a microphone brushing against a TV set. Alfred
+        Hitchcock Cameos: Director Alfred Hitchcock made a cameo appearance in
+        almost every film he made, often appearing in the background as a fun
+        Easter egg for keen-eyed viewers.
+      </p>
+
+      <!-- Comment Section -->
+      <section class="like-comment-section">
+        <form id="comment-form">
+          <textarea name="comment" placeholder="Leave a comment..."></textarea>
+          <button type="submit">Submit Comment</button>
+        </form>
+      </section>
+
+      <!-- Hyperlink to YouTube -->
+      <p>
+        <a href="https://www.youtube.com/watch?v=arFvMQEoLCg" target="_blank">
+          Unique Facts about movies
+        </a>
+      </p>
+
+      <!-- Dropdown Menu -->
+      <div class="dropdown">
+        <button class="dropdown-btn">More Info</button>
+        <div class="dropdown-content">
+          <a href="#">Film History</a>
+          <a href="#">Movie Recommendations</a>
+          <a href="#">Directors</a>
+        </div>
+      </div>
+
+      <!-- Contact Us Form -->
+      <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required /><br /><br />
+
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required /><br /><br />
+
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject of your message"
+            required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            rows="4"
+            required></textarea
+          ><br /><br />
+        </form>
+      </section>
+    </section>
+
+    <!-- Save for Later Section -->
+    <p id="saved-items-count">Items saved: 0</p>
+    <div id="saved-items"></div>
+    <p>
+      <script src="saveforlater.js"></script>
+    </p>
+    <br /><br />
+    <a href="saveforlater.html">Go to Save for Later page</a>
+
+    <footer>
+      <p>Movies-Movies-Movies</p>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies-Movies-Movies</title>
+    <!-- Linking to the external CSS file -->
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Link to jQuery library -->
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Interesting facts about movies</h1>
+      <hr />
+    </header>
+
+    <!-- Updated Image Wrapper with Save for Later Buttons -->
+    <div class="image-container">
+      <!-- First image with a save button -->
+      <div class="image-wrapper">
+        <img
+          src="picture4.jfif"
+          alt="Movies-Movies-Movies"
+          class="image-left" />
+        <button class="like-btn" data-item="movie_image_1">Like</button>
+        <button class="save-for-later" data-item="movie_image_1">
+          Save for Later
+        </button>
+        <!-- Save button added here -->
+      </div>
+
+      <!-- Second image with a save button -->
+      <div class="image-wrapper">
+        <img
+          src="picture5.jfif"
+          alt="Movies-Movies-Movies"
+          class="image-right" />
+        <button class="like-btn" data-item="movie_image_2">Like</button>
+        <button class="save-for-later" data-item="movie_image_2">
+          Save for Later
+        </button>
+        <!-- Save button added here -->
+      </div>
+    </div>
+
+    <section class="content">
+      <p>
+        The Earliest Film: The first recorded film ever created was Roundhay
+        Garden Scene (1888), a brief 2.11-second clip filmed by inventor Louis
+        Le Prince in France. Longest Film in History: The record for the longest
+        movie goes to Logistics (2012), which runs for a staggering 857 hours,
+        or roughly 35 days and 17 hours. Lightsaber Sound Secrets: The iconic
+        noise of a lightsaber from Star Wars is a mix of a film projector’s hum
+        and the sound produced by a microphone brushing against a TV set. Alfred
+        Hitchcock Cameos: Director Alfred Hitchcock made a cameo appearance in
+        almost every film he made, often appearing in the background as a fun
+        Easter egg for keen-eyed viewers.
+      </p>
+
+      <!-- Comment Section -->
+      <section class="like-comment-section">
+        <form id="comment-form">
+          <textarea name="comment" placeholder="Leave a comment..."></textarea>
+          <button type="submit">Submit Comment</button>
+        </form>
+      </section>
+
+      <!-- Hyperlink to YouTube -->
+      <p>
+        <a href="https://www.youtube.com/watch?v=arFvMQEoLCg" target="_blank">
+          Unique Facts about movies
+        </a>
+      </p>
+
+      <!-- Dropdown Menu -->
+      <div class="dropdown">
+        <button class="dropdown-btn">More Info</button>
+        <div class="dropdown-content">
+          <a href="#">Film History</a>
+          <a href="#">Movie Recommendations</a>
+          <a href="#">Directors</a>
+        </div>
+      </div>
+
+      <!-- Contact Us Form -->
+      <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required /><br /><br />
+
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required /><br /><br />
+
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject of your message"
+            required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            rows="4"
+            required></textarea
+          ><br /><br />
+        </form>
+      </section>
+    </section>
+
+    <!-- Save for Later Section -->
+    <p id="saved-items-count">Items saved: 0</p>
+    <div id="saved-items">
+      <!-- Saved items will be appended here -->
+    </div>
+    <p>
+      <script src="saveforlater.js"></script>
+    </p>
+    <br /><br />
+    <a href="saveforlater.html">Go to Save for Later page</a>
+
+    <footer>
+      <p>Movies-Movies-Movies</p>
+    </footer>
+  </body>
+</html>
