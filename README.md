@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/yourusername/project-name.git
 
 
-### How to use the site:
+## How to use the site:
 
 1. **Save Items for Later**: 
    - Click on the "Save for Later" button next to any movie fact or image. This will add the item to your saved list.
@@ -57,7 +57,7 @@ Before you begin, ensure you have met the following requirements:
 *This is the main page where users can see movie facts, like images, and save items for later.*
 
 
-### Credits
+## Credits
 
 - **Creator**: [Sahar Abdul Waheed](https://github.com/Sahar12572) - For designing and implementing the website.
 - **Images**: [Google](https://www.google.com/search?sca_esv=a7afae622429358f&sxsrf=AHTn8zouYoSRj-Z-aqI4y8T_HW7hmCyXwA:1741341196887&q=movies+pictures&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBs5KbvfUChveCKqCmofFTOnX5cWomDDhhcVLebGO7DXbayFQ5pjDm4BxVWb6aAFrMUVbCFGymMTzmqEjm4vi8NQm6AgVfWFVsBKTSPS_0fIjfd_aACxsXsw9GRW1a2zl_E40MTONZ-Rhh13FEBhDHEmvM8UzsvU_3lr6g240f6Xn8skqZA&sa=X&sqi=2&ved=2ahUKEwjqoeS72feLAxWtW0EAHRmmDdIQtKgLegQIFhAB&biw=1920&bih=953&dpr=1#vhid=tXhKGY6kMcpBDM&vssid=mosaic) - Source for the images used on the site.
