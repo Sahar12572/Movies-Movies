@@ -1,283 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movies-Movies-Movies</title>
-    <!-- Linking to the external CSS file -->
-    <link rel="stylesheet" href="index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <!-- Link to jQuery library -->
-    <script src="index.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies-Movies-Movies</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="index.js" defer></script>
+  <script src="saveforlater.js" defer></script>
+</head>
 
-  <body>
-    <header>
-      <h1>Interesting facts about movies</h1>
-      <hr />
-    </header>
-    <!-- Updated Image Wrapper with Save for Later Buttons -->
-    <div class="image-container">
-      <!-- First image with a save button -->
-      <div class="image-wrapper">
-        <img
-          src="picture4.jfif"
-          alt="Movies-Movies-Movies"
-          class="image-left" />
-        <button class="like-btn" data-item="movie_image_1">Like</button>
-        <button class="save-for-later" data-item="movie_image_1">
-          Save for Later
-        </button>
-        <!-- Save button added here -->
-      </div>
+<body>
+  <header>
+    <h1>🎥 Interesting Facts About Movies 🎬</h1>
+    <hr />
+  </header>
 
-      <!-- Second image with a save button -->
-      <div class="image-wrapper">
-        <img
-          src="picture5.jfif"
-          alt="Movies-Movies-Movies"
-          class="image-right" />
-        <button class="like-btn" data-item="movie_image_2">Like</button>
-        <button class="save-for-later" data-item="movie_image_2">
-          Save for Later
-        </button>
-        <!-- Save button added here -->
-      </div>
+  <div class="image-container">
+    <div class="image-wrapper">
+      <img src="picture4.jfif" alt="Classic Film Poster" class="image-left" />
+      <button class="like-btn" data-item="movie_image_1">Like</button>
+      <button class="save-for-later" data-item="movie_image_1">Save for Later</button>
     </div>
 
-    <section class="content">
-      <p>
-        The Earliest Film: The first recorded film ever created was Roundhay
-        Garden Scene (1888), a brief 2.11-second clip filmed by inventor Louis
-        Le Prince in France. Longest Film in History: The record for the longest
-        movie goes to Logistics (2012), which runs for a staggering 857 hours,
-        or roughly 35 days and 17 hours. Lightsaber Sound Secrets: The iconic
-        noise of a lightsaber from Star Wars is a mix of a film projector’s hum
-        and the sound produced by a microphone brushing against a TV set. Alfred
-        Hitchcock Cameos: Director Alfred Hitchcock made a cameo appearance in
-        almost every film he made, often appearing in the background as a fun
-        Easter egg for keen-eyed viewers.
-      </p>
+    <div class="image-wrapper">
+      <img src="picture5.jfif" alt="Modern Blockbuster Poster" class="image-right" />
+      <button class="like-btn" data-item="movie_image_2">Like</button>
+      <button class="save-for-later" data-item="movie_image_2">Save for Later</button>
+    </div>
+  </div>
 
-      <!-- Comment Section -->
-      <section class="like-comment-section">
-        <form id="comment-form">
-          <textarea name="comment" placeholder="Leave a comment..."></textarea>
-          <button type="submit">Submit Comment</button>
-        </form>
-      </section>
-
-      <!-- Hyperlink to YouTube -->
-      <p>
-        <a href="https://www.youtube.com/watch?v=arFvMQEoLCg" target="_blank">
-          Unique Facts about movies
-        </a>
-      </p>
-
-      <!-- Dropdown Menu -->
-      <div class="dropdown">
-        <button class="dropdown-btn">More Info</button>
-        <div class="dropdown-content">
-          <a href="#">Film History</a>
-          <a href="#">Movie Recommendations</a>
-          <a href="#">Directors</a>
-        </div>
-      </div>
-
-      <!-- Contact Us Form -->
-      <section class="contact-form-section">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-          <label for="name">Your Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required /><br /><br />
-
-          <label for="email">Your Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required /><br /><br />
-
-          <label for="subject">Subject:</label>
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            placeholder="Subject of your message"
-            required /><br /><br />
-
-          <label for="message">Message:</label><br />
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Enter your message"
-            rows="4"
-            required></textarea
-          ><br /><br />
-        </form>
-      </section>
-    </section>
-
-    <!-- Save for Later Section -->
-    <p id="saved-items-count">Items saved: 0</p>
-    <div id="saved-items"></div>
+  <section class="content">
+    <h2>🍿 Fascinating Movie Facts</h2>
     <p>
-      <script src="saveforlater.js"></script>
+      🎞️ **The First Film Ever Made**: *Roundhay Garden Scene* (1888) is the earliest surviving motion picture, and it's just 2.11 seconds long. Shot in France, it features four people awkwardly walking in a garden. Groundbreaking? Absolutely.
     </p>
-    <br /><br />
-    <a href="saveforlater.html">Go to Save for Later page</a>
+    <p>
+      🕰️ **The Longest Film Ever**: *Logistics* (2012) holds the record for being the longest movie ever made — 857 hours (35 days and 17 hours). Spoiler: it’s literally about the production journey of a pedometer.
+    </p>
+    <p>
+      ⚔️ **Lightsaber Secrets**: The legendary Star Wars lightsaber sound was created by combining the hum of an old film projector and the buzzing feedback of a microphone near a TV. Jedi audio wizardry.
+    </p>
+    <p>
+      🧥 **Hitchcock’s Easter Eggs**: Alfred Hitchcock made cameo appearances in 39 of his 52 films. From missing passengers to newspaper readers, he was *the king of the subtle photobomb*.
+    </p>
+    <p>
+      🐠 **Finding Dory’s Hidden Detail**: Pixar is famous for hiding characters from their upcoming films in current movies. In *Monsters, Inc.*, you can spot Nemo — three years before *Finding Nemo* was released!
+    </p>
+    <p>
+      🤯 **The Inception of Inception**: Christopher Nolan wrote *Inception* over 10 years. The dream logic? Based on lucid dreaming, paradoxes, and the golden ratio. No wonder it messed with our heads.
+    </p>
+  </section>
 
-    <footer>
-      <p>Movies-Movies-Movies</p>
-    </footer>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movies-Movies-Movies</title>
-    <!-- Linking to the external CSS file -->
-    <link rel="stylesheet" href="index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <!-- Link to jQuery library -->
-    <script src="index.js"></script>
-  </head>
+  <!-- Comment Section -->
+  <section class="like-comment-section">
+    <h2>💬 Leave a Comment</h2>
+    <form id="comment-form">
+      <textarea name="comment" placeholder="What’s your favorite movie fact?" required></textarea>
+      <button type="submit">Submit Comment</button>
+    </form>
+  </section>
 
-  <body>
-    <header>
-      <h1>Interesting facts about movies</h1>
-      <hr />
-    </header>
+  <!-- YouTube Link -->
+  <section>
+    <h2>🎬 Watch More on YouTube</h2>
+    <a href="https://www.youtube.com/watch?v=arFvMQEoLCg" target="_blank">
+      🔗 Unique Facts about Movies
+    </a>
+  </section>
 
-    <!-- Updated Image Wrapper with Save for Later Buttons -->
-    <div class="image-container">
-      <!-- First image with a save button -->
-      <div class="image-wrapper">
-        <img
-          src="picture4.jfif"
-          alt="Movies-Movies-Movies"
-          class="image-left" />
-        <button class="like-btn" data-item="movie_image_1">Like</button>
-        <button class="save-for-later" data-item="movie_image_1">
-          Save for Later
-        </button>
-        <!-- Save button added here -->
-      </div>
-
-      <!-- Second image with a save button -->
-      <div class="image-wrapper">
-        <img
-          src="picture5.jfif"
-          alt="Movies-Movies-Movies"
-          class="image-right" />
-        <button class="like-btn" data-item="movie_image_2">Like</button>
-        <button class="save-for-later" data-item="movie_image_2">
-          Save for Later
-        </button>
-        <!-- Save button added here -->
-      </div>
+  <!-- Dropdown Menu -->
+  <div class="dropdown">
+    <button class="dropdown-btn">More Info</button>
+    <div class="dropdown-content">
+      <a href="#">🎞️ Film History</a>
+      <a href="#">🍿 Movie Recommendations</a>
+      <a href="#">🎬 Notable Directors</a>
     </div>
+  </div>
 
-    <section class="content">
-      <p>
-        The Earliest Film: The first recorded film ever created was Roundhay
-        Garden Scene (1888), a brief 2.11-second clip filmed by inventor Louis
-        Le Prince in France. Longest Film in History: The record for the longest
-        movie goes to Logistics (2012), which runs for a staggering 857 hours,
-        or roughly 35 days and 17 hours. Lightsaber Sound Secrets: The iconic
-        noise of a lightsaber from Star Wars is a mix of a film projector’s hum
-        and the sound produced by a microphone brushing against a TV set. Alfred
-        Hitchcock Cameos: Director Alfred Hitchcock made a cameo appearance in
-        almost every film he made, often appearing in the background as a fun
-        Easter egg for keen-eyed viewers.
-      </p>
+  <!-- Contact Form -->
+  <section class="contact-form-section">
+    <h2>📨 Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
 
-      <!-- Comment Section -->
-      <section class="like-comment-section">
-        <form id="comment-form">
-          <textarea name="comment" placeholder="Leave a comment..."></textarea>
-          <button type="submit">Submit Comment</button>
-        </form>
-      </section>
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
 
-      <!-- Hyperlink to YouTube -->
-      <p>
-        <a href="https://www.youtube.com/watch?v=arFvMQEoLCg" target="_blank">
-          Unique Facts about movies
-        </a>
-      </p>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject of your message" required />
 
-      <!-- Dropdown Menu -->
-      <div class="dropdown">
-        <button class="dropdown-btn">More Info</button>
-        <div class="dropdown-content">
-          <a href="#">Film History</a>
-          <a href="#">Movie Recommendations</a>
-          <a href="#">Directors</a>
-        </div>
-      </div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-      <!-- Contact Us Form -->
-      <section class="contact-form-section">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-          <label for="name">Your Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required /><br /><br />
-
-          <label for="email">Your Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Enter your email"
-            required /><br /><br />
-
-          <label for="subject">Subject:</label>
-          <input
-            type="text"
-            id="subject"
-            name="subject"
-            placeholder="Subject of your message"
-            required /><br /><br />
-
-          <label for="message">Message:</label><br />
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Enter your message"
-            rows="4"
-            required></textarea
-          ><br /><br />
-        </form>
-      </section>
-    </section>
-
-    <!-- Save for Later Section -->
+  <!-- Save for Later Section -->
+  <section class="saved-items-section">
+    <h2>🗃️ Your Saved Items</h2>
     <p id="saved-items-count">Items saved: 0</p>
     <div id="saved-items">
-      <!-- Saved items will be appended here -->
+      <!-- Saved items will appear here -->
     </div>
-    <p>
-      <script src="saveforlater.js"></script>
-    </p>
-    <br /><br />
-    <a href="saveforlater.html">Go to Save for Later page</a>
+    <a href="saveforlater.html">📁 Go to Save for Later Page</a>
+  </section>
 
-    <footer>
-      <p>Movies-Movies-Movies</p>
-    </footer>
-  </body>
+  <footer>
+    <p>© 2025 Movies-Movies-Movies | Powered by Popcorn and Pixels 🍿</p>
+  </footer>
+</body>
 </html>
